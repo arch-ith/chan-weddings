@@ -69,6 +69,7 @@ export default function ChanWeddingsStatic() {
           </div>
         </div>
         <div className="centered-container">
+          <img src={FounderImg} alt="chan-weddings" />
           <p>Our founder may faint, but your love story won’t.</p>
         </div>
       </section>
