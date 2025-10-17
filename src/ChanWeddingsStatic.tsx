@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import FounderImg from "./assets/image.png";
 
 interface Feature {
   title: string;
@@ -68,7 +69,7 @@ export default function ChanWeddingsStatic() {
           </div>
         </div>
         <div className="centered-container">
-          <img src="/image.png" alt="chan-weddings" />
+          <img src={FounderImg} alt="chan-weddings" />
           <p>Our founder may faint, but your love story won’t.</p>
         </div>
       </section>
